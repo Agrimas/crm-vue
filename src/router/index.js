@@ -22,6 +22,36 @@ const routes = [
     meta: {layout: 'main'},
     component: () => import('../views/Categories')
   },
+  {
+    path: '/detail-record',
+    name: 'DetailRecord',
+    meta: {layout: 'main'},
+    component: ()=>import('../views/DetailRecord')
+  },
+  {
+    path: '/history',
+    name: 'History',
+    meta: {layout: 'main'},
+    component: ()=>import('../views/History')
+  },
+  {
+    path: '/planning',
+    name: 'Planning',
+    meta: {layout: 'main'},
+    component: ()=>import('../views/Planning')
+  },
+  {
+    path: '/profile',
+    name: 'Profile',
+    meta: {layout: 'main'},
+    component: ()=>import('../views/Profile')
+  },
+  {
+    path: '/record',
+    name: 'Record',
+    meta: {layout: 'main'},
+    component: ()=>import('../views/Record')
+  }
 ]
 
 const router = new VueRouter({

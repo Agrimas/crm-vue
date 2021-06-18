@@ -13,7 +13,7 @@ import MainLayout from "./layouts/MainLayout";
 export default {
   components: {
     EmptyLayout,
-    MainLayout
+    MainLayout,
   },
   computed: {
     layout() {
